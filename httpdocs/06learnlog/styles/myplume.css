@@ -1,0 +1,24 @@
+﻿body, html
+  {
+    margin: 0px !important;
+    padding: 0px !important;
+
+ }
+
+.cus-grid {
+    background-color: #ebf2fa;
+    border-radius: 5px;
+    margin-bottom: 5px;
+
+} 
+
+.ui-datepicker-trigger{
+	display:inline;
+	padding-left:10px;
+}
+
+.space {
+
+    margin-top: 50px;
+
+} 

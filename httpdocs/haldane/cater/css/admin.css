@@ -1,0 +1,12 @@
+#mycard {
+        height: 21rem;
+        width: 21rem;
+        margin: 3rem;
+    } 
+
+    .adminicon {
+    background-color:#fafafa;
+    color:#007bff;
+    text-align: center;
+    }
+

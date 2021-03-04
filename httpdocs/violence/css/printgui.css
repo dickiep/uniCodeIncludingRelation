@@ -1,0 +1,19 @@
+#container {
+	width: 100%;
+}
+
+#header {
+	display: none;
+}
+
+#sidebar {
+	display: none;
+}
+
+#mainContent {
+	margin-left: 0;
+}
+
+#boldtext{
+	display:none;
+}

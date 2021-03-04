@@ -1,0 +1,87 @@
+/* sidemenu */
+#sidemenu-wrapper {
+    z-index: 1;
+    position: absolute;
+    width: 0;
+    height: 100%;
+    overflow-y: hidden;
+    background: #FFF;
+    border-right: 3px solid whitesmoke;
+    opacity: 0.9;  
+    padding-top: 55px;
+}
+
+/* main content */
+#content-wrapper {
+    width: 100%;
+    position: absolute;
+    padding-top: 55px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+
+/*changing the width of the side menu to display it*/
+#wrapper.menuDisplayed #sidemenu-wrapper {
+    width: 20em;
+}
+
+#wrapper.menuDisplayed #content-wrapper {
+    padding-left: 20em;
+}
+
+/*sidemenu styling*/ 
+.sidemenu-nav {
+    padding: 0px;
+    list-style: none;
+}
+
+.sidemenu-nav li {
+    text-indent: 20px;
+    line-height: 40px;
+}
+
+.sidemenu-nav li a{
+    display: block;
+    text-decoration: none;
+    color: #000;
+}
+
+/*nav bar*/
+
+.owlfavicon {
+    position: relative;
+    top: 3.5px;
+    left: 12.5px;
+    width: 3em !important;
+}
+
+.mynav {
+   
+    margin-top: 15px;
+    background: #42a5f5;
+    border-bottom: solid 2px whitesmoke !important;
+}
+
+
+.mybtn {
+    position: relative;
+    top: 7px;
+    left: 15px;
+    color: #fff;
+    border: solid #fff 1px;
+    border-radius: 5px;
+}
+
+.myhead{
+    height: 15px;
+    width: 100%;
+    background: #0077c2; 
+}
+
+#mybreadcrumb {
+    border-radius: 0px !important;
+    margin-left: -27px !important;
+    margin-right: -27px !important;
+}
+

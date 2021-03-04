@@ -1,0 +1,321 @@
+@font-face {
+  font-family: fingerpaint;
+  src: url('../type/FingerPaint-Regular.ttf');
+  }
+
+body, html{
+	margin:0px; 
+	padding:0px; 
+	background:url('../img/back.png') repeat-x;
+	background-color:#ffffff; 
+	color:#362219; 
+	line-height:20px; 
+	font-size:13px;
+	}
+	
+#container{
+	margin:  0 auto;
+	width:970px;
+	min-height:400px;
+	font-family: Arial, Helvetica, sans-serif;
+    padding-bottom:20px;
+}
+
+
+#top, #top2{
+	height:280px;
+	padding:0px;
+	font-size:large;
+	background-image:url('../img/header.png');
+	font-family: fingerpaint;
+		/*border:thin solid red;	*/
+}
+
+#top2{
+	background-image:url('../img/header2.png');
+}
+
+
+#nav, #navedit{
+	list-style:none;
+}
+
+#navcontent{
+	margin-top:220px;
+	float:left;	
+	/*border:thin solid black;
+	width:90%;*/
+}
+
+#nav li{
+	display:inline;
+	width:200px;
+	padding-right:30px;
+	padding-left:15px;
+	color:white;
+}
+
+#navedit li{
+	display:inline;
+	color:white;
+	font-size:12pt;
+	padding-right:20px;
+
+}
+
+
+#nav li a{
+	color:white;
+	text-decoration:none;
+}
+#navedit li a{
+	color:#E8E8E8;
+	text-decoration:none;
+
+}
+
+
+#nav #here, #navcontent #here{
+	font-weight:bold;
+	color:black;
+}
+
+#top #title, #top2 #title{
+	padding-right:100px;
+	padding-top:45px;
+	float:right;
+}
+
+#main{
+	background-color:white;
+	width:950px;
+	margin: 0 auto;
+	min-height:500px;
+    border-bottom:thin solid white;
+    font-size:medium;
+
+}
+
+#mainheader, #mainheader2{
+	background-color:#FFE49C;
+	font-size:large;
+	padding:10px;
+}
+
+#mainheader2{
+	background-color:cadetblue;
+	color:white;
+}
+
+
+p{
+	margin:10px;
+}
+
+article{
+	min-height:300px;
+	
+}
+
+.polaroid {
+	position: relative;
+	background: #fff;
+	width: 360px;
+	padding: 7px;
+	margin: 10px;
+	text-align: center;	
+	-moz-box-shadow: 1px 1px 3px #222;
+	-moz-transform: rotate(-5deg);
+	-webkit-box-shadow: 1px 1px 3px #222;
+	-webkit-transform: rotate(-5deg);
+	box-shadow: 1px 1px 3px #222;
+	-o-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+		float:right;
+}
+
+.polaroid2 {
+	position: relative;
+	background: #fff;
+	width: 310px;
+	padding: 7px;
+	margin-top: 10px;
+	margin-left:40px;
+	text-align: center;	
+	-moz-box-shadow: 1px 1px 3px #222;
+	-moz-transform: rotate(5deg);
+	-webkit-box-shadow: 1px 1px 3px #222;
+	-webkit-transform: rotate(5deg);
+	box-shadow: 1px 1px 3px #222;
+	-o-transform: rotate(5deg);
+	transform: rotate(5deg);
+		float:left;
+}
+
+
+
+
+article #lefttext{
+	width:500px;
+	float:left;
+	padding:0;
+
+}
+
+#ingredients{
+	
+	float:right;
+	width:460px;
+
+	padding-left:100px;
+	padding-top:20px;
+	min-height:250px;
+	
+
+}
+
+#how{
+	float:left;
+	margin-top:20px;
+	padding:10px 20px;
+	background-color:#FFFAE1;
+}
+
+
+#bottom{
+	
+	height:200px;
+	background-image:url('../img/bottom_pans.png');
+	
+   /*border:thin solid red;*/
+}
+
+#bottomleft{
+	background-image:url('../img/franchises.png');
+	height:120px;
+	width:300px;	
+	float:right;
+	margin:30px 10px 0px 10px;
+	padding-top:50px;
+}
+
+#bottomright{
+	background-image:url('../img/mailing.png');
+	height:120px;
+	width:300px;
+	float:right;
+	margin:30px 10px 0px 10px;
+	padding-top:50px;
+}
+
+#footer{
+	height:170px;
+	background-image:url('../img/footer.png');
+	font-family: arial;
+	padding:20px;	
+}
+
+
+
+article{
+	
+	padding:10px;
+}
+
+input{
+	font-size:1em;
+}
+
+#recipe{
+	width:300px;
+}
+
+label{
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+	display: block;
+	font-size:medium;
+	background-color:#E6E6E6;
+	padding:5px;
+}
+
+#help{
+	font-size:small;
+}
+
+#myItemInput{
+	
+	height:20px;
+	border:thin solid burlywood;
+	
+}
+
+.submit input{
+	margin-left: 4.5em;
+}
+ 
+
+#but {
+	
+	background-color:burlywood;
+	border: 2px outset #d7b9c9;
+	border-radius: 10px;
+	padding: 5px 8px;
+
+} 
+
+#but2 {
+	
+	background-color:aqua;
+	border: 2px outset #d7b9c9;
+	border-radius: 10px;
+	padding: 5px 8px;
+
+} 
+
+#butpos{
+	
+	float:right;
+
+}
+
+.clearfloat { 
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+.list {
+	list-style:none;
+	background-color:aqua;
+	margin-right:20px;
+	margin-top:10px;
+	padding: 3px;
+}
+
+.listright{
+	display:inline;
+	float:right;
+}
+
+#addbutton{
+	margin-left:80%;
+	margin-top:20px;
+	padding:5px;
+	background-color:burlywood;
+	width:110px;
+	text-align:center;
+}
+#addbutton a{
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+}
+#addbutton a:hover{
+	color:white;
+	text-decoration:none;
+	font-weight:bold;
+}
+

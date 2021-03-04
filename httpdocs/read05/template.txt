@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		 <link rel="stylesheet" href="https://gitcdn.link/repo/Chalarangelo/mini.css/master/dist/mini-default.min.css"/>
+        <link rel="stylesheet" href="">
+        
+    </head>
+    
+    <body>
+	    <div class="container">
+			<!-- nav -->
+			<div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3">
+                  
+                </div>  
+            </div>
+			
+	
+			
+			<!-- books -->
+			
+	<div class="row">
+	<div class="col-sm-12 col-sm-last col-md-normal col-lg-8 col-lg-offset-2">
+		 <form>
+				<fieldset>
+				<legend>Inline form (default style)</legend>
+				<div class="input-group"><label for="username">Username</label> <input type="email" value="" id="username" placeholder="username">&nbsp;</div>
+				<div class="input-group"><label for="pwd">Password</label> <input type="password" value="" id="pwd" placeholder="password"></div>
+				</fieldset>
+		</form>
+		<form>
+				<fieldset>
+				<legend>Fluid form</legend>
+				<div class="input-group fluid"><label for="username2">Username</label> <input type="email" value="" id="username2" placeholder="username"></div>
+				<div class="input-group fluid"><label for="pwd2">Password</label> <input type="password" value="" id="pwd2" placeholder="password"></div>
+				</fieldset>
+				</form>
+				<form>
+				<fieldset>
+				<legend>Vertical form</legend>
+				<div class="input-group vertical"><label for="username2">Username</label> <input type="email" value="" id="username2" placeholder="username"></div>
+				<div class="input-group vertical"><label for="pwd2">Password</label> <input type="password" value="" id="pwd2" placeholder="password"></div>
+				</fieldset>
+		</form>
+		
+		
+		<form>
+				<fieldset>
+				<legend>Aligned form (using grid)</legend>
+				<div class="row responsive-label">
+				<div class="col-sm-12 col-md-3">
+				<label for="number">Number</label>
+				</div>
+				<div class="col-sm-12 col-md">
+				<input type="number" value="42" id="number" style="width:85%;">
+				</div>
+				</div>
+			
+				<div class="row responsive-label">
+				<div class="col-sm-12 col-md-3">
+				<label for="disabled">Disabled</label>
+				</div>
+				<div class="col-sm-12 col-md">
+				<input disabled="" value="disabled" id="disabled" style="width:85%;">
+				</div>
+				</div>
+				<div class="row responsive-label">
+				<div class="col-sm-12 col-md-3">
+				<label for="readonly">Readonly</label>
+				</div>
+				<div class="col-sm-12 col-md">
+				<input readonly="" value="readonly" id="readonly" style="width:85%;">
+				</div>
+				</div>
+				<div class="row responsive-label">
+				<div class="col-sm-12 col-md-3">
+				<label for="select">Select</label>
+				</div>
+				<div class="col-sm-12 col-md">
+				<select id="select"> <option>Apples</option> <option>Oranges</option> </select>
+				</div>
+				</div>
+				
+				<input type="submit" class="tertiary" value="Insert Book">
+				</fieldset>
+				
+				
+		</form>
+		
+		
+		
+		<form>
+				  <fieldset>
+					<legend>Responsive form</legend>
+					<div class="row label-aligned">
+					  <div class="col-sm-12 col-md-4">
+						<label for="bookname">book title</label>
+					  </div>
+					  <div class="col-sm-12 col-md">
+						<input type="text" value="" id="bookname" placeholder="book title">
+					  </div>
+					</div>
+				  </fieldset>
+	   </form>
+		
+		</div>
+				
+				 
+	</div> 
+</div>
+			
+
+    </body>
+    
+</html>

@@ -1,0 +1,30 @@
+.myheader {
+	background: #099;
+}
+
+.mynav {
+	background: #000;
+}
+
+.changebk{
+	background: #ddd;
+}
+
+.box {
+	background: #fff;
+	margin: 10px;
+	min-width: 200px;
+	min-height: 200px;
+}
+
+
+.colour4 {
+	background: #974;
+}
+
+.col-lg-12 {
+	width:95%;
+}
+
+
+

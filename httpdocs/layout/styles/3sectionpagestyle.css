@@ -1,0 +1,76 @@
+.container {
+    width: 90%;
+    padding: 20px;
+    background: lightsteelblue;
+    margin: 3% auto;
+}
+
+.container:after {
+    display: block;
+    clear: both;
+    content: "";
+    height: 0;
+    overflow: hidden;
+}
+
+.header {
+    display: block;
+    height: 40px;
+    background: lightcoral;
+    width: 100%;
+}
+
+.leftsection {
+    float: left;
+    width: 20%;
+    background: lightblue;
+    height: 500px;
+}
+
+.rightsection {
+    float: right;
+    width: 80%;
+    background: lime;
+    height:500px;
+}
+
+
+@media (min-width: 1em) and (orientation: portrait) { 
+    
+.container {
+    width: 90%;
+    padding: 20px;
+    background: lightsteelblue;
+    margin: 3% auto;
+}
+
+.container:after {
+    display: block;
+    clear: both;
+    content: "";
+    height: 0;
+    overflow: hidden;
+}
+
+.header {
+    display: block;
+    height: 40px;
+    background: black;
+    width: 100%;
+}
+
+.leftsection {
+    float: left;
+    width: 0%;
+    background: lightblue;
+    height: 1000px;
+}
+
+.rightsection {
+    float: right;
+    width: 100%;
+    background: lime;
+    height:1000px;
+}
+
+}

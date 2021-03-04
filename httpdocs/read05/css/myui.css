@@ -1,0 +1,33 @@
+
+body{
+    background-color: black;
+    margin:0px;
+}
+
+.container{
+    margin: 0 auto;
+    background-color: white;
+    width:85%;
+    max-width:1100px;
+    min-width:540px;
+	padding:0;
+}
+
+.right{
+	  float:right;
+}
+
+.full{
+	width:100%;
+}
+
+.nomargin{
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+

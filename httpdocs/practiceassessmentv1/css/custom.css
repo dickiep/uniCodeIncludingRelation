@@ -1,0 +1,102 @@
+.container {
+  max-width: 100%; }
+
+.title {
+    background-color: red;
+    color: white;
+    
+}
+
+.job {
+    background-color: #D3D3D3;
+}
+
+#space {
+    padding:20px;
+    background: white;
+}
+
+p{
+    margin-bottom: 5px;
+}
+
+.info {
+    float: right;
+    margin-right: 10px;
+    color: white;
+    background-color: red;
+    font-family: helvetica;
+}
+
+.jobinfo {
+   padding: 10px;
+}
+
+.addjob {
+    padding: 5%;
+    
+}
+
+.addjobbutton {
+    background-color: red !important;
+    border-color: #bbb !important;
+    
+}
+
+#content {
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+#main{
+	background-color:#D3D3D3;
+	width:98%;
+	margin: auto;
+        margin-top:10px;
+	margin-bottom:10px;
+	min-height:200px;
+
+}
+
+.example-grid .column, .example-grid .columns {
+  background: #EEE;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  height: 120px;
+  line-height: 30px;
+  margin-bottom: .75rem;
+  font-weight: 600;
+  letter-spacing: .1rem; 
+  }
+  
+ .floatelement{
+	 float:none;
+	 width:100%;	 
+ }
+ 
+.docs-example .row, .docs-example.row,.docs-example form {
+  margin-bottom: 0; 
+ }
+
+
+/* Larger than phone */
+@media (min-width: 550px) {
+
+
+.example-grid .column, .example-grid .columns {
+    margin-bottom: 1.5rem; 
+	}
+ 
+ 
+.floatelement{
+	float:left;
+	 width:31%;
+	 margin-right:2%;
+ }
+ 
+ 
+ 
+ 
+}

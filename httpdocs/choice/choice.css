@@ -1,0 +1,19 @@
+.enterchoice {
+    width: auto; 
+    display:inline; 
+    margin-left: 1rem;
+    margin-bottom: 2rem;
+}
+
+.correctanswer {
+    width: auto; 
+    display:inline; 
+    margin-left: 4rem !important;
+}
+
+.addanother {
+    width: auto; 
+    display:inline; 
+    margin-right: 1rem; 
+    float: right;
+}

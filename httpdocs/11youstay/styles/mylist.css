@@ -1,0 +1,54 @@
+
+body{	
+	padding-top: 65px;
+	padding-bottom: 100px;
+}
+
+a.selects .col-md-8
+{
+    color:black;
+}
+
+a.selects:hover .col-md-8
+{
+    background-color: #888; 
+    color:white;
+}
+
+.pad, .pad2{
+
+    padding-top:30px;
+	padding-right:30px;
+}
+
+.pad2{
+    padding-bottom:20px;
+
+}
+
+.foot{
+
+    background-color:#82244E;
+	color:white;
+
+}
+
+.title{
+    width:20%;
+}
+
+.navbar-brand 
+    {
+        padding-top: 0;
+    }
+
+.thumb{
+border: 1px solid #ddd; /* Gray border */
+    border-radius: 4px;  /* Rounded border */
+    padding: 5px; /* Some padding */
+    width: 150px; /* Set a small width */
+		
+}
+.thumb:hover{
+	box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}

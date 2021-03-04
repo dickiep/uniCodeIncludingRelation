@@ -1,0 +1,43 @@
+.button {
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 4px 8px ;
+}
+
+.box {
+    text-align: center;
+    background:#5F9BD1;
+    color: #fff;
+    padding: 15px 0;
+}
+
+#head{
+    
+    width:100%;
+    background:#000;
+    color:white;
+    text-align:center;
+    padding:20pt;
+}
+
+body {
+    font: bold 11px Arial;
+}
+
+.house img{
+    width: 100%;
+}
+
+.myaddress{
+    width:50%;
+    height: 100px;
+    color: black;
+    text-align: left;
+}
+
+.box myleft {
+    margin-left: 10px;
+    text-align: left;
+}

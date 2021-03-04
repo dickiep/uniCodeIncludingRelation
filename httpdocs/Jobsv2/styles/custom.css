@@ -1,0 +1,29 @@
+
+
+mylogo {
+    background: red !important;
+}
+
+#space {
+    padding:20px;
+    background: white;
+}
+
+.titleSalary {
+    display: inline-block !important;
+}
+
+#moreinfo {
+    float: right;
+}
+
+.myheader{
+    background: red !important;
+}
+
+.info {
+    background: red !important;
+    color: white !important;
+    border-color: white !important;
+    
+}

@@ -1,0 +1,91 @@
+body {
+    background: #42a5f5;
+}
+
+#signinform { 
+    margin-top: 8em;
+    margin-bottom: 10em;
+}
+
+.owlfavicon {
+    width: 8em;
+}
+
+#loginheading {
+    min-width: 25em;
+    padding-right: 5em;
+    padding-left: 6em;
+    padding-bottom: 1em;
+    color: #FFFFFF;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+/*large sized screens*/
+@media (min-width: 992px) and (max-width : 1200px){
+    #loginheading {
+        min-width: 25em;
+        padding-right: 1em;
+        padding-left: 4em;
+        padding-bottom: 1em;
+        color: #FFFFFF;
+    }
+    
+}
+
+/*medium - xs sized screens*/
+@media (min-width: 768px) and (max-width : 991px){
+    #loginheading {
+        min-width: 25em;
+        position: relative;
+        left:11em;
+        color: #FFFFFF;
+    }  
+}
+
+/*small - xs sized screens*/
+@media (min-width: 576px) and (max-width : 767px){
+    #loginheading {
+        min-width: 25em;
+        position: relative;
+        left:5em;
+        color: #FFFFFF;
+    }  
+}
+
+/*xs sized screens*/
+@media (min-width: 478px) and (max-width : 575px){
+    #loginheading {
+        
+        float: left;
+        margin-left: 5em;
+        margin-right: 10em;
+        color: #FFFFFF;
+    }  
+}
+
+/*xxs sized screens*/
+@media (min-width: 401px) and (max-width : 477px){
+    #loginheading {
+        
+        float: left;
+        margin-left: 3em;
+        margin-right: 10em;
+        color: #FFFFFF;
+    }  
+}
+
+/*xxxs sized screens*/
+@media (min-width: 300px) and (max-width : 400px){
+    #loginheading {
+        
+        float: left;
+        margin-left: 0em;
+        margin-right: 10em;
+        color: #FFFFFF;
+    }  
+}
+
+

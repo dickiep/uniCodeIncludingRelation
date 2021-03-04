@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <link rel="stylesheet" href="styles/owl.css">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+            
+            <div class="whitecircle eyewhite">
+                <div class="bear">
+                    <div class="bear__ears">
+                        <div class="bear__ears__left ear"></div>
+                        <div class="bear__ears__right ear"></div>
+                    </div>
+                    <div class="bear__body">
+                        <div class="bear__eyes">
+                            <div class="bear__eyes--left eye"></div>
+                            <div class="bear__eyes--right eye"></div>
+                        </div>
+                        <div class="bear__nose">
+                            <div class="bear__nose--inner"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div 
+        </div>
+
+
+</body>
+
+</html>
+
+

@@ -1,0 +1,33 @@
+#left{
+    min-height: 500px;
+    background: red;
+    z-index: 1;
+}
+
+#right{
+    min-height: 500px;
+    background: blue;
+}
+
+#mybutton {
+    display: none;
+}
+
+@media (max-width: 768px) { 
+    #left{
+        display: none;
+    }
+
+    #mybutton {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 5px;
+    }
+    
+    .left_click{
+        display: block !important;
+    }
+    
+}
+
